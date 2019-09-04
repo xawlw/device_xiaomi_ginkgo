@@ -457,6 +457,10 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-service \
     libsensorndkbridge
 
+# Soong
+PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
+
+
 # Telephony
 PRODUCT_PACKAGES += \
     telephony-ext
